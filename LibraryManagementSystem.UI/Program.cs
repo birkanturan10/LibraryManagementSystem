@@ -1,24 +1,38 @@
+using LibraryManagementSystem.Business.Abstract;
+using LibraryManagementSystem.Business.Concrete;
+using LibraryManagementSystem.DataAccess.Abstract;
+using LibraryManagementSystem.DataAccess.Concrete.EntityFramework;
 using LibraryManagementSystem.DataAccess.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// MVC servislerini ekle
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
+// Veritabaný baðlantýsý (EF Core)
 builder.Services.AddDbContext<LibraryContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LibraryDbConnection")));
 
+// Dependency Injection (Business ve DataAccess katmanlarý)
+builder.Services.AddScoped<IBookService, BookManager>();
+builder.Services.AddScoped<IMemberService, MemberManager>();
+builder.Services.AddScoped<IBorrowRecordService, BorrowRecordManager>();
+
+builder.Services.AddScoped<IBookDal, EfBookDal>();
+builder.Services.AddScoped<IMemberDal, EfMemberDal>();
+builder.Services.AddScoped<IBorrowRecordDal, EfBorrowRecordDal>();
+
+var app = builder.Build();
+
+// Hata yönetimi
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
+
+// Middleware pipeline
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -26,8 +40,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+// Varsayýlan route
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Book}/{action=Index}/{id?}");
 
 app.Run();

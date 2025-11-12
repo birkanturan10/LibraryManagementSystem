@@ -1,0 +1,33 @@
+﻿@model List<LibraryManagementSystem.Entities.Book>
+
+@{
+    ViewBag.Title = "Kitap Listesi";
+}
+
+<h2 class="mb-3">Kitap Listesi</h2>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Başlık</th>
+            <th>Yazar</th>
+            <th>Yayınevi</th>
+            <th>Yıl</th>
+            <th>Durum</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.BookID</td>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Publisher</td>
+                <td>@book.Year</td>
+                <td>@(book.IsAvailable ? "Uygun" : "Ödünçte")</td>
+            </tr>
+        }
+    </tbody>
+</table>
