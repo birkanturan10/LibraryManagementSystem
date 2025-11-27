@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58B12226-3C4B-4948-AAB1-E864F85683FA}|LibraryManagementSystem.UI\\LibraryManagementSystem.UI.csproj|c:\\users\\birka\\source\\repos\\librarymanagementsystem\\librarymanagementsystem.ui\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58B12226-3C4B-4948-AAB1-E864F85683FA}|LibraryManagementSystem.UI\\LibraryManagementSystem.UI.csproj|solutionrelative:librarymanagementsystem.ui\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58B12226-3C4B-4948-AAB1-E864F85683FA}|LibraryManagementSystem.UI\\LibraryManagementSystem.UI.csproj|c:\\users\\birka\\source\\repos\\librarymanagementsystem\\librarymanagementsystem.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58B12226-3C4B-4948-AAB1-E864F85683FA}|LibraryManagementSystem.UI\\LibraryManagementSystem.UI.csproj|solutionrelative:librarymanagementsystem.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58B12226-3C4B-4948-AAB1-E864F85683FA}|LibraryManagementSystem.UI\\LibraryManagementSystem.UI.csproj|c:\\users\\birka\\source\\repos\\librarymanagementsystem\\librarymanagementsystem.ui\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58B12226-3C4B-4948-AAB1-E864F85683FA}|LibraryManagementSystem.UI\\LibraryManagementSystem.UI.csproj|solutionrelative:librarymanagementsystem.ui\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58B12226-3C4B-4948-AAB1-E864F85683FA}|LibraryManagementSystem.UI\\LibraryManagementSystem.UI.csproj|c:\\users\\birka\\source\\repos\\librarymanagementsystem\\librarymanagementsystem.ui\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58B12226-3C4B-4948-AAB1-E864F85683FA}|LibraryManagementSystem.UI\\LibraryManagementSystem.UI.csproj|solutionrelative:librarymanagementsystem.ui\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAE2971-C53F-4A01-9508-13DC68C9C996}|LibraryManagementSystem.Business\\LibraryManagementSystem.Business.csproj|c:\\users\\birka\\source\\repos\\librarymanagementsystem\\librarymanagementsystem.business\\concrete\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAE2971-C53F-4A01-9508-13DC68C9C996}|LibraryManagementSystem.Business\\LibraryManagementSystem.Business.csproj|solutionrelative:librarymanagementsystem.business\\concrete\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.UI\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.UI\\Program.cs",
-              "ToolTip": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.UI\\Program.cs",
-              "RelativeToolTip": "LibraryManagementSystem.UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:17:47.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.UI\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.UI\\Views\\Book\\Index.cshtml",
-              "ToolTip": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.UI\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "LibraryManagementSystem.UI\\Views\\Book\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.UI\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.UI\\Views\\Book\\Create.cshtml",
+              "ToolTip": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.UI\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "LibraryManagementSystem.UI\\Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T13:12:04.884Z",
+              "WhenOpened": "2025-11-27T12:20:47.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Business\\Concrete\\BookManager.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Business\\Concrete\\BookManager.cs",
+              "ToolTip": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.Business\\Concrete\\BookManager.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Business\\Concrete\\BookManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:19:40.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.UI\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.UI\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\birka\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem.UI\\Controllers\\BookController.cs",
               "RelativeToolTip": "LibraryManagementSystem.UI\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:09:47.772Z",
+              "WhenOpened": "2025-11-27T12:16:41.469Z",
               "EditorCaption": ""
             }
           ]
